@@ -10,9 +10,9 @@ terraform {
 provider "aws" {
   region  = "ap-southeast-1"
 }
-resource "aws_security_group" "example" {
-  name        = "example-security-group"
-  description = "Example security group for EC2 instances"
+resource "aws_security_group" "qa" {
+  name        = "qa-security-group"
+  description = "qa security group for EC2 instances"
 
   // Define your security group rules here
   ingress {
