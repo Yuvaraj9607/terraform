@@ -1,3 +1,4 @@
+#variable file for ec2
 variable "region" {
   description = "Cloud region in which instance to be launched"
   type = string
